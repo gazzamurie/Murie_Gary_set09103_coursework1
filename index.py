@@ -1,5 +1,5 @@
 from flask import Flask, url_for, render_template, request
-import os #Manipulates files
+import os, json #Manipulates files
 from PIL import Image
 
 app = Flask(__name__)

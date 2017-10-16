@@ -1,0 +1,16 @@
+{
+  "space": [
+    {
+      "name": "Moon",
+      "category": "Planet"
+    },
+    {
+      "name": "Sun",
+      "category": "Planet"
+    },
+    {
+      "name": "International Space Station",
+      "category": "Human Object"
+    }
+  ]
+}
