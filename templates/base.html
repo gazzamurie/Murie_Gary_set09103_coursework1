@@ -1,16 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Space &amp Time</title>
+<link rel="stylesheet" href="static/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 </head>
-
 <body>
-{{data}}
-<!-- {{viewImages}}
-{% for viewImage in viewImages %}
-<img src ="{{url_for('/', filename=images)}}">
-{% endfor %}-->
 
-</form>
+<header>
+<a href="{{url_for('home')}}">
+  <img class="logo" src='static/images/rocket.png'><h1>Rocket</h1></img>
+  <h2>Gateway To Space</h2>
+</a>
+</header>
+<h3>Planets</h3>
+<div class="row">
+  <div class="column">
+    <a href="{{url_for('mercury')}}">
+      <img src="static/images/mercury.png" alt="Mercury">
+    </a>
+  </div>
+  <div class="column">
+  <a href="{{url_for('venus')}}">
+    <img src="static/images/venus.png" alt="Venus">
+  </a>
+  </div>
+  <div class="column">
+    <a href="{{url_for('earth')}}">
+      <img src="static/images/earth.png" alt="Earth">
+    </a>
+  </div>
+  <div class="column">
+    <a href="{{url_for('mars')}}">
+      <img src="static/images/mars.png" alt="Mars">
+    </a>
+  </div>
+  <div class="column">
+    <a href="{{url_for('jupiter')}}">
+      <img src="static/images/jupiter.png" alt="Jupiter">
+    </a>
+  </div>
+  <div class="column">
+  <a href="{{url_for('saturn')}}">
+    <img src="static/images/saturn.png" alt="Saturn">
+  </a>
+</div>
+  <div class="column">
+    <a href="{{url_for('uranus')}}">
+      <img src="static/images/uranus.png" alt="Uranus">
+    </a>
+  </div>
+    <div class="column">
+    <a href="{{url_for('neptune')}}">
+      <img src="static/images/neptune.png" alt="Neptune">
+    </a>
+  </div>
+</div>
+<h3>The Sun</h3>
+<div class="row">
+  <div class="sunColumn">
+    <a href="{{url_for('sun')}}">
+      <img src="static/images/sun.png">
+    </a>
+  </div>
+<h3>Small Bodies</h3>
+<div class="row">
+  <div class="smallColumn">
+    <a href="{{url_for('dwarf')}}">
+      <img src="static/images/dwarf.png">
+    </a>
+  </div>
+  <div class="smallColumn">
+    <a href="{{url_for('pluto')}}">
+      <img src="static/images/pluto.png">
+    </a>
+  </div>
+  <div class="smallColumn">
+    <a href="{{url_for('ceres')}}">
+      <img src="static/images/ceres.png">
+    </a>
+  </div>
+  <div class="smallColumn">
+    <a href="{{url_for('asteroids')}}">
+      <img src="static/images/asteroids.png">
+    </a>
+  </div>
+  <div class="smallColumn">
+    <a href="{{url_for('comets')}}">
+      <img src="static/images/comets.png">
+    </a>
+  </div>
+  <div class="smallColumn">
+    <a href="{{url_for('meteors')}}">
+      <img src="static/images/meteors.png">
+    </a>
+  </div>
+</div>
+<footer>
+<p>&copy; Gary Murie | Course Work For Edinburgh Napier University | Information From <a href="https://www.nasa.gov" >NASA</a></p>
+</footer>
 </body>
 </html>

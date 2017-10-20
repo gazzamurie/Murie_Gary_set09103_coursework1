@@ -2,15 +2,18 @@
   "space": [
     {
       "name": "Moon",
-      "category": "Planet"
+      "category": "Planet",
+      "image": "static/upload.gif"
     },
     {
       "name": "Sun",
-      "category": "Planet"
+      "category": "Planet",
+      "image": "n/a"
     },
     {
       "name": "International Space Station",
-      "category": "Human Object"
+      "category": "Human Object",
+      "image": "n/a"
     }
   ]
 }

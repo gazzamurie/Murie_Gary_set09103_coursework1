@@ -1,0 +1,96 @@
+/*****************************
+Home Page
+*******************************/
+.column {
+    float: left;
+    width: 12.5%;
+}
+
+.smallColumn {
+  float: left;
+  width: 16.6%;
+}
+
+.logo {
+  width:50px;
+  height:50px;
+  padding-right: 20px;
+  display:inline-block;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sunColumn {
+  width: 100%
+}
+/*****************************
+Planets Pages
+*******************************/
+.columnPlan {
+  float: left;
+  width: 50%;
+}
+
+.columnPlanText {
+  float: left;
+  width: 50%;
+  padding-top: 150px;
+}
+
+.infoName, .infoCat, .infoDes {
+  color: white;
+}
+/*****************************
+Footer
+*******************************/
+footer p {
+  text-align: center;
+  color: white;
+}
+/*****************************
+Four O Four Page
+*******************************/
+.fourtext p{
+  text-align: center;
+  color: white;
+  font-family: 'Francois One', sans-serif;
+}
+/*****************************
+Miselanious
+*******************************/
+body {
+background-image: url('/static/images/background.gif');
+background-color: black;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 3px;
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  display: inline-block;
+}
+
+h2, h3 {
+  color: white;
+  padding left: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  height: 50;
+  width:100%;
+}

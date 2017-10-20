@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="static/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+  <a href="{{url_for('home')}}">
+    <img class="logo" src='static/images/rocket.png'><h1>Rocket</h1></img>
+    <h2>Gateway To Space</h2>
+  </a>
+  </header>
+<div class="row">
+  <div class="columnPlan">
+    <img class="infoPage" src="static/images/earth.png"></img>
+  </div>
+  <div class="columnPlanText">
+
+      <h3>Name:<h3>
+        <div class="infoName">
+        {{name}}
+  </div>
+    <h3>Category:</h3>
+    <div class="infoCat">
+    {{category}}
+  </div>
+    <h3>Descrption:</h3>
+    <div class="infoDes">
+    {{description}}
+  </div>
+
+  </div>
+</div>
+<!--<form action="/uploaded" method="POST">
+  <input type="submit" value="contribute"></input>
+</form>-->
+</body>
+</html>
