@@ -3,7 +3,11 @@
 <head>
 <link rel="stylesheet" href="static/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500,600" rel="stylesheet">
 </head>
+
 <body>
   <header>
   <a href="{{url_for('home')}}">
@@ -11,28 +15,26 @@
     <h2>Gateway To Space</h2>
   </a>
   </header>
-<div class="row">
-  <div class="columnPlan">
-    <img class="infoPage" src="static/images/mercury.png"></img>
+  <div class="infoName">
+    <h1>{{name}}</h1>
   </div>
+  <div class="row">
+    <div class="columnPlan">
+      <img class="infoPage" src="static/images/mercury.png"></img>
+    </div>
   <div class="columnPlanText">
-    <div class="infoName">
-      <h3>Name:<h3>
-    {{name}}
+    <p>Category:</p>
+    <div class="infoCat">
+      {{category}}
+    </div>
+    <p>Descrption:</p>
+      <div class="infoDes">
+        {{description}}
+      </div>
+    </div>
   </div>
-  <div class="infoCat">
-    <h3>Category:</h3>
-    {{category}}
-  </div>
-  <div class="infoDes">
-    <h3>Descrption:</h3>
-    {{description}}
-  </div>
-
-  </div>
-</div>
-<!--<form action="/uploaded" method="POST">
-  <input type="submit" value="contribute"></input>
-</form>-->
+  <footer>
+  <p>&copy; Gary Murie | Course Work For Edinburgh Napier University | Information From <a href="https://www.nasa.gov" >NASA</a></p>
+  </footer>
 </body>
 </html>

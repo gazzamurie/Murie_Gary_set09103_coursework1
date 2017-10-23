@@ -12,9 +12,9 @@ Home Page
 }
 
 .logo {
-  width:50px;
-  height:50px;
-  padding-right: 20px;
+  width:30px;
+  height:30px;
+  padding-right: 5px;
   display:inline-block;
 }
 
@@ -28,6 +28,547 @@ Home Page
 .sunColumn {
   width: 100%
 }
+
+/*****************************
+Hover: Planets
+*******************************/
+.containerMercury {
+  position: relative;
+}
+
+.imageMercury {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleMercury {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerMercury:hover .imageMercury {
+  opacity: 0.3;
+}
+
+.containerMercury:hover .middleMercury {
+  opacity: 1;
+}
+
+.textMercury {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerVenus {
+  position: relative;
+}
+
+.imageVenus {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleVenus {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerVenus:hover .imageVenus {
+  opacity: 0.3;
+}
+
+.containerVenus:hover .middleVenus {
+  opacity: 1;
+}
+
+.textVenus {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerEarth {
+  position: relative;
+}
+
+.imageEarth {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleEarth {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerEarth:hover .imageEarth {
+  opacity: 0.3;
+}
+
+.containerEarth:hover .middleEarth {
+  opacity: 1;
+}
+
+.textEarth {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerMars {
+  position: relative;
+}
+
+.imageMars {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleMars {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerMars:hover .imageMars {
+  opacity: 0.3;
+}
+
+.containerMars:hover .middleMars {
+  opacity: 1;
+}
+
+.textMars {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerJupiter {
+  position: relative;
+}
+
+.imageJupiter {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleJupiter {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerJupiter:hover .imageJupiter {
+  opacity: 0.3;
+}
+
+.containerJupiter:hover .middleJupiter {
+  opacity: 1;
+}
+
+.textJupiter {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerSaturn {
+  position: relative;
+}
+
+.imageSaturn {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleSaturn {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerSaturn:hover .imageSaturn {
+  opacity: 0.3;
+}
+
+.containerSaturn:hover .middleSaturn {
+  opacity: 1;
+}
+
+.textSaturn {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerUranus {
+  position: relative;
+}
+
+.imageUranus {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleUranus {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerUranus:hover .imageUranus {
+  opacity: 0.3;
+}
+
+.containerUranus:hover .middleUranus {
+  opacity: 1;
+}
+
+.textUranus {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerNeptune {
+  position: relative;
+}
+
+.imageNeptune {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleNeptune {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerNeptune:hover .imageNeptune {
+  opacity: 0.3;
+}
+
+.containerNeptune:hover .middleNeptune {
+  opacity: 1;
+}
+
+.textNeptune {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+/*****************************
+Hover: Small Bodies
+*******************************/
+.containerPluto {
+  position: relative;
+}
+
+.imagePluto {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middlePluto {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerPluto:hover .imagePluto {
+  opacity: 0.3;
+}
+
+.containerPluto:hover .middlePluto {
+  opacity: 1;
+}
+
+.textPluto {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.containerDwarf {
+  position: relative;
+}
+
+.imageDwarf {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleDwarf {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerDwarf:hover .imageDwarf {
+  opacity: 0.3;
+}
+
+.containerDwarf:hover .middleDwarf {
+  opacity: 1;
+}
+
+.textDwarf {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.containerCeres {
+  position: relative;
+}
+
+.imageCeres {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleCeres {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerCeres:hover .imageCeres {
+  opacity: 0.3;
+}
+
+.containerCeres:hover .middleCeres {
+  opacity: 1;
+}
+
+.textCeres {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerAsteroids {
+  position: relative;
+}
+
+.imageAsteroids {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleAsteroids {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerAsteroids:hover .imageAsteroids {
+  opacity: 0.3;
+}
+
+.containerAsteroids:hover .middleAsteroids {
+  opacity: 1;
+}
+
+.textAsteroids {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerComets {
+  position: relative;
+}
+
+.imageComets {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleComets {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerComets:hover .imageComets {
+  opacity: 0.3;
+}
+
+.containerComets:hover .middleComets {
+  opacity: 1;
+}
+
+.textComets {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.containerMeteors {
+  position: relative;
+}
+
+.imageMeteors {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleMeteors {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containerMeteors:hover .imageMeteors {
+  opacity: 0.3;
+}
+
+.containerMeteors:hover .middleMeteors {
+  opacity: 1;
+}
+
+.textMeteors {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
 /*****************************
 Planets Pages
 *******************************/
@@ -42,9 +583,22 @@ Planets Pages
   padding-top: 150px;
 }
 
+.columnPlanText p {
+  color:white;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .infoName, .infoCat, .infoDes {
   color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.infoName {
+  padding-top:20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
 /*****************************
 Footer
 *******************************/
@@ -56,9 +610,15 @@ footer p {
 Four O Four Page
 *******************************/
 .fourtext p{
+  position: absolute;
+  top: 50%;
+  left:36%;
   text-align: center;
-  color: white;
-  font-family: 'Francois One', sans-serif;
+  color: blue;
+  font-family: 'Raleway', sans-serif;
+}
+.containerFour {
+  position: relative;
 }
 /*****************************
 Miselanious
@@ -70,16 +630,24 @@ background-color: black;
 
 h1 {
   text-align: center;
-  padding-bottom: 3px;
+  padding: 0;
+  margin: 0;
   color: white;
   font-family: 'Francois One', sans-serif;
   display: inline-block;
 }
 
-h2, h3 {
+h3 {
   color: white;
-  padding left: 20px;
+  padding-left: 25px;
   font-family: 'Francois One', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-family: 'Francois One', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 a {

@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="static/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
@@ -14,46 +15,95 @@
 </header>
 <h3>Planets</h3>
 <div class="row">
+
   <div class="column">
-    <a href="{{url_for('mercury')}}">
-      <img src="static/images/mercury.png" alt="Mercury">
-    </a>
+    <div class="containerMercury">
+      <a href="{{url_for('mercury')}}">
+        <img src="static/images/mercury.png" class="imageMercury">
+        <div class="middleMercury">
+          <div class="textMercury">Mercury</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="column">
-  <a href="{{url_for('venus')}}">
-    <img src="static/images/venus.png" alt="Venus">
-  </a>
+    <div class="containerVenus">
+      <a href="{{url_for('venus')}}">
+        <img src="static/images/venus.png" class="imageVenus">
+        <div class="middleVenus">
+          <div class="textVenus">Venus</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="column">
-    <a href="{{url_for('earth')}}">
-      <img src="static/images/earth.png" alt="Earth">
-    </a>
+    <div class="containerEarth">
+      <a href="{{url_for('earth')}}">
+        <img src="static/images/earth.png" class="imageEarth">
+        <div class="middleEarth">
+          <div class="textEarth">Earth</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="column">
-    <a href="{{url_for('mars')}}">
-      <img src="static/images/mars.png" alt="Mars">
-    </a>
+    <div class="containerMars">
+      <a href="{{url_for('mars')}}">
+        <img src="static/images/mars.png" class="imageMars">
+        <div class="middleMars">
+          <div class="textMars">Mars</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="column">
-    <a href="{{url_for('jupiter')}}">
-      <img src="static/images/jupiter.png" alt="Jupiter">
-    </a>
+    <div class="containerJupiter">
+      <a href="{{url_for('jupiter')}}">
+        <img src="static/images/jupiter.png" class="imageJupiter">
+        <div class="middleJupiter">
+          <div class="textJupiter">Jupiter</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="column">
-  <a href="{{url_for('saturn')}}">
-    <img src="static/images/saturn.png" alt="Saturn">
-  </a>
-</div>
+    <div class="containerSaturn">
+      <a href="{{url_for('saturn')}}">
+        <img src="static/images/saturn.png" class="imageSaturn">
+        <div class="middleSaturn">
+          <div class="textSaturn">Saturn</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
   <div class="column">
-    <a href="{{url_for('uranus')}}">
-      <img src="static/images/uranus.png" alt="Uranus">
-    </a>
+    <div class="containerUranus">
+      <a href="{{url_for('uranus')}}">
+        <img src="static/images/uranus.png" class="imageUranus">
+        <div class="middleUranus">
+          <div class="textUranus">Uranus</div>
+        </div>
+      </a>
+    </div>
   </div>
-    <div class="column">
-    <a href="{{url_for('neptune')}}">
-      <img src="static/images/neptune.png" alt="Neptune">
-    </a>
+
+  <div class="column">
+    <div class="containerNeptune">
+      <a href="{{url_for('neptune')}}">
+        <img src="static/images/neptune.png" class="imageNeptune">
+        <div class="middleNeptune">
+          <div class="textNeptune">Neptune</div>
+        </div>
+      </a>
+    </div>
   </div>
+
 </div>
 <h3>The Sun</h3>
 <div class="row">
@@ -62,38 +112,76 @@
       <img src="static/images/sun.png">
     </a>
   </div>
+</div>
 <h3>Small Bodies</h3>
 <div class="row">
+
   <div class="smallColumn">
-    <a href="{{url_for('dwarf')}}">
-      <img src="static/images/dwarf.png">
-    </a>
+    <div class="containerDwarf">
+      <a href="{{url_for('dwarf')}}">
+        <img src="static/images/dwarf.png" class="imageDwarf">
+        <div class="middleDwarf">
+          <div class="textDwarf">Dwarf Planets</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="smallColumn">
-    <a href="{{url_for('pluto')}}">
-      <img src="static/images/pluto.png">
-    </a>
+    <div class="containerPluto">
+      <a href="{{url_for('pluto')}}">
+        <img src="static/images/pluto.png" class="imagePluto">
+        <div class="middlePluto">
+          <div class="textPluto">Pluto</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="smallColumn">
-    <a href="{{url_for('ceres')}}">
-      <img src="static/images/ceres.png">
-    </a>
+    <div class="containerCeres">
+      <a href="{{url_for('ceres')}}">
+        <img src="static/images/ceres.png" class="imageCeres">
+        <div class="middleCeres">
+          <div class="textCeres">Ceres</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="smallColumn">
-    <a href="{{url_for('asteroids')}}">
-      <img src="static/images/asteroids.png">
-    </a>
+    <div class="containerAsteroids">
+      <a href="{{url_for('asteroids')}}">
+        <img src="static/images/asteroids.png" class="imageAsteroids">
+        <div class="middleAsteroids">
+          <div class="textAsteroids">Asteroids</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="smallColumn">
-    <a href="{{url_for('comets')}}">
-      <img src="static/images/comets.png">
-    </a>
+    <div class="containerComets">
+      <a href="{{url_for('comets')}}">
+        <img src="static/images/comets.png" class="imageComets">
+        <div class="middleComets">
+          <div class="textComets">Comets</div>
+        </div>
+      </a>
+    </div>
   </div>
+
   <div class="smallColumn">
-    <a href="{{url_for('meteors')}}">
-      <img src="static/images/meteors.png">
-    </a>
+    <div class="containerMeteors">
+      <a href="{{url_for('meteors')}}">
+        <img src="static/images/meteors.png" class="imageMeteors">
+        <div class="middleMeteors">
+          <div class="textMeteors">Meteors</div>
+        </div>
+      </a>
+    </div>
   </div>
+
 </div>
 <footer>
 <p>&copy; Gary Murie | Course Work For Edinburgh Napier University | Information From <a href="https://www.nasa.gov" >NASA</a></p>

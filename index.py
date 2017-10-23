@@ -88,7 +88,7 @@ def pluto():
 
 @app.route("/ceres")
 def ceres():
-    name = "Cecres"
+    name = "Ceres"
     category = "Dwarf Planet"
     description = "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter and the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25 percent of the asteroid belt's total mass, tiny Pluto is still 14 times more massive. Ceres is named for the Roman goddess of harvests. The word cereal comes from the same name."
     return render_template('ceres.html', name=name, category=category, description=description)
